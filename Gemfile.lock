@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    zabbixapi (2.2.2)
+    zabbixapi (2.2.2.1)
       json (>= 1.6.0, < 3)
 
 GEM
