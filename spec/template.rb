@@ -102,7 +102,7 @@ describe "template" do
             zbx.templates.mass_update(
               :hosts_id => [@hostid],
               :templates_id => [@templateid]
-            ).should be_true
+            ).should be true
           end
         end
       end
@@ -139,7 +139,7 @@ describe "template" do
             zbx.templates.mass_remove(
               :hosts_id => [@hostid],
               :templates_id => [@templateid]
-            ).should be_true
+            ).should be true
           end
         end
       end
