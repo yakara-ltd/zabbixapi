@@ -1,5 +1,6 @@
-source :rubygems
+source 'https://rubygems.org'
 
-gem "rspec"
-gem "rake"
-gem "json"
+gem 'rspec', '~> 2.12'
+gem 'rake'
+
+gemspec
